@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="fkm-2s-FuA">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--My Fourth View Controller-->
+        <scene sceneID="dSn-Cn-IGz">
+            <objects>
+                <tableViewController id="fkm-2s-FuA" customClass="MyFourthViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="123" sectionHeaderHeight="22" sectionFooterHeight="22" id="Gnz-aZ-MNE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MyCell" rowHeight="123" id="6Pn-SK-bWl" customClass="MyCustomCell">
+                                <rect key="frame" x="0.0" y="22" width="320" height="123"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6Pn-SK-bWl" id="wNf-zs-JUp">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="122"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0DN-no-lp5">
+                                            <rect key="frame" x="10" y="17" width="88" height="88"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="88" id="0ub-nq-hZ6"/>
+                                                <constraint firstAttribute="width" constant="88" id="RAE-Mt-oP1"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiU-fI-ucl">
+                                            <rect key="frame" x="106" y="17" width="194" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NJ7-SX-LEC">
+                                            <rect key="frame" x="106" y="71" width="51" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </switch>
+                                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="VaY-Xp-mGI">
+                                            <rect key="frame" x="161" y="72" width="141" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </slider>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="0DN-no-lp5" firstAttribute="bottom" secondItem="NJ7-SX-LEC" secondAttribute="bottom" constant="3" id="0ST-oW-HoG"/>
+                                        <constraint firstItem="RiU-fI-ucl" firstAttribute="leading" secondItem="0DN-no-lp5" secondAttribute="trailing" constant="8" symbolic="YES" id="5NA-fw-zMi"/>
+                                        <constraint firstItem="VaY-Xp-mGI" firstAttribute="leading" secondItem="NJ7-SX-LEC" secondAttribute="trailing" constant="8" symbolic="YES" id="7vb-K7-yPt"/>
+                                        <constraint firstItem="0DN-no-lp5" firstAttribute="leading" secondItem="wNf-zs-JUp" secondAttribute="leading" constant="10" id="B8y-g1-LAT"/>
+                                        <constraint firstItem="VaY-Xp-mGI" firstAttribute="centerY" secondItem="NJ7-SX-LEC" secondAttribute="centerY" constant="0.5" id="Fjo-jZ-ulp"/>
+                                        <constraint firstItem="RiU-fI-ucl" firstAttribute="top" secondItem="0DN-no-lp5" secondAttribute="top" id="G5B-dU-kRl"/>
+                                        <constraint firstAttribute="trailing" secondItem="VaY-Xp-mGI" secondAttribute="trailing" constant="20" symbolic="YES" id="MPF-r4-1XQ"/>
+                                        <constraint firstAttribute="trailing" secondItem="RiU-fI-ucl" secondAttribute="trailing" constant="20" symbolic="YES" id="YgX-jP-pnG"/>
+                                        <constraint firstItem="NJ7-SX-LEC" firstAttribute="leading" secondItem="0DN-no-lp5" secondAttribute="trailing" constant="8" symbolic="YES" id="bS9-ng-TLz"/>
+                                        <constraint firstAttribute="centerY" secondItem="0DN-no-lp5" secondAttribute="centerY" id="h9Z-n6-kXp"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="label" destination="RiU-fI-ucl" id="5Ke-5R-asd"/>
+                                    <outlet property="switchControl" destination="NJ7-SX-LEC" id="dgv-iE-Djo"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fkm-2s-FuA" id="TIW-14-dp4"/>
+                            <outlet property="delegate" destination="fkm-2s-FuA" id="iJl-lO-g8G"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mvl-rk-kRi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="495" y="-81"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
