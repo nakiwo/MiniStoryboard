@@ -1,5 +1,5 @@
 //
-//  MyFourthViewController.h
+//  MyFifthViewController.h
 //  MiniStoryboard
 //
 //  Created by yuichi on 2014/06/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyFourthViewController : UITableViewController
+@interface MyFifthViewController : UITableViewController
 
 @property (nonatomic, copy) NSString *myText;
 

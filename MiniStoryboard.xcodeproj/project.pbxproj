@@ -16,6 +16,8 @@
 		DB492100194BE8E9002A07F6 /* MyFourthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4920FF194BE8E9002A07F6 /* MyFourthViewController.storyboard */; };
 		DB492103194BE8F8002A07F6 /* MyFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB492102194BE8F8002A07F6 /* MyFourthViewController.m */; };
 		DB492106194BE9C3002A07F6 /* MyCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB492105194BE9C3002A07F6 /* MyCustomCell.m */; };
+		DB492109194BEDB0002A07F6 /* MyFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB492108194BEDB0002A07F6 /* MyFifthViewController.m */; };
+		DB49210B194BEE21002A07F6 /* MyFifthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB49210A194BEE21002A07F6 /* MyFifthViewController.storyboard */; };
 		DB6F4CBA194BE37400FD33DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6F4CB9194BE37400FD33DC /* Foundation.framework */; };
 		DB6F4CBC194BE37400FD33DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6F4CBB194BE37400FD33DC /* CoreGraphics.framework */; };
 		DB6F4CBE194BE37400FD33DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6F4CBD194BE37400FD33DC /* UIKit.framework */; };
@@ -40,6 +42,9 @@
 		DB492102194BE8F8002A07F6 /* MyFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFourthViewController.m; sourceTree = "<group>"; };
 		DB492104194BE9C3002A07F6 /* MyCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomCell.h; sourceTree = "<group>"; };
 		DB492105194BE9C3002A07F6 /* MyCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomCell.m; sourceTree = "<group>"; };
+		DB492107194BEDB0002A07F6 /* MyFifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFifthViewController.h; sourceTree = "<group>"; };
+		DB492108194BEDB0002A07F6 /* MyFifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFifthViewController.m; sourceTree = "<group>"; };
+		DB49210A194BEE21002A07F6 /* MyFifthViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyFifthViewController.storyboard; sourceTree = "<group>"; };
 		DB6F4CB6194BE37400FD33DC /* MiniStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6F4CB9194BE37400FD33DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DB6F4CBB194BE37400FD33DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,6 +97,9 @@
 				DB492104194BE9C3002A07F6 /* MyCustomCell.h */,
 				DB492105194BE9C3002A07F6 /* MyCustomCell.m */,
 				DB4920FF194BE8E9002A07F6 /* MyFourthViewController.storyboard */,
+				DB492107194BEDB0002A07F6 /* MyFifthViewController.h */,
+				DB492108194BEDB0002A07F6 /* MyFifthViewController.m */,
+				DB49210A194BEE21002A07F6 /* MyFifthViewController.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 			files = (
 				DB4920FC194BE4B1002A07F6 /* MySecondViewController.xib in Resources */,
 				DB492100194BE8E9002A07F6 /* MyFourthViewController.storyboard in Resources */,
+				DB49210B194BEE21002A07F6 /* MyFifthViewController.storyboard in Resources */,
 				DB6F4CC4194BE37400FD33DC /* InfoPlist.strings in Resources */,
 				DB4920FE194BE720002A07F6 /* MyThirdViewController.storyboard in Resources */,
 				DB4920F2194BE3F9002A07F6 /* MyMainViewController.xib in Resources */,
@@ -216,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB492109194BEDB0002A07F6 /* MyFifthViewController.m in Sources */,
 				DB4920F1194BE3F9002A07F6 /* MyMainViewController.m in Sources */,
 				DB6F4CCA194BE37400FD33DC /* MyAppDelegate.m in Sources */,
 				DB492103194BE8F8002A07F6 /* MyFourthViewController.m in Sources */,

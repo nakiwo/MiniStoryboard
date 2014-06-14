@@ -44,11 +44,23 @@
                         <action selector="show4th:" destination="-1" eventType="touchUpInside" id="Hve-r1-kGe"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6Z-nb-wa9">
+                    <rect key="frame" x="145" y="307" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="5th">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="show5th:" destination="-1" eventType="touchUpInside" id="Egk-t2-3RO"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="centerY" secondItem="vbg-ah-Bjb" secondAttribute="centerY" id="7j2-j9-huH"/>
+                <constraint firstItem="H6Z-nb-wa9" firstAttribute="top" secondItem="SA3-c2-wZj" secondAttribute="bottom" constant="8" symbolic="YES" id="8d6-w3-gcl"/>
                 <constraint firstAttribute="centerY" secondItem="SA3-c2-wZj" secondAttribute="centerY" id="DfR-1h-5iK"/>
+                <constraint firstAttribute="centerX" secondItem="H6Z-nb-wa9" secondAttribute="centerX" id="Epy-UX-3w9"/>
                 <constraint firstItem="SA3-c2-wZj" firstAttribute="leading" secondItem="vbg-ah-Bjb" secondAttribute="trailing" constant="8" symbolic="YES" id="luA-Op-1fB"/>
                 <constraint firstItem="2q1-PC-nU7" firstAttribute="leading" secondItem="SA3-c2-wZj" secondAttribute="trailing" constant="8" symbolic="YES" id="mA7-Wk-A1H"/>
                 <constraint firstAttribute="centerY" secondItem="2q1-PC-nU7" secondAttribute="centerY" id="qlR-TA-UV1"/>

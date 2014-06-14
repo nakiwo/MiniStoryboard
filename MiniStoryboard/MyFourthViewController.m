@@ -20,7 +20,7 @@
     
     self = [super initWithCoder:aDecoder];
     if (self) {
-        _text = @"(untitled)";
+        _myText = @"(untitled)";
     }
     return self;
 }
@@ -45,7 +45,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     MyCustomCell *cell = (MyCustomCell *)[tableView dequeueReusableCellWithIdentifier:@"MyCell" forIndexPath:indexPath];
-    cell.label.text = _text;
+    cell.label.text = _myText;
     cell.switchControl.on = (indexPath.row % 2) ? YES : NO;
     return cell;
 }
